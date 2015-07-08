@@ -1281,7 +1281,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      _angularFix2['default'].extend(options, {
 	        // attach the key in case the formly-field directive is used directly
 	        key: key,
-	        value: valueGetterSetter,
+	        value: options.value || valueGetterSetter,
 	        runExpressions: runExpressions,
 	        resetModel: resetModel,
 	        updateInitialValue: updateInitialValue
